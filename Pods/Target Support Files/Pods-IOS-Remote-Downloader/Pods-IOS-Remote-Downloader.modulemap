@@ -1,0 +1,6 @@
+framework module Pods_IOS_Remote_Downloader {
+  umbrella header "Pods-IOS-Remote-Downloader-umbrella.h"
+
+  export *
+  module * { export * }
+}

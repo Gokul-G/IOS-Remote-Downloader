@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5936A79920977F3B00056DDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5936A79820977F3B00056DDF /* AppDelegate.swift */; };
+		5936A79B20977F3B00056DDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5936A79A20977F3B00056DDF /* ViewController.swift */; };
+		5936A79E20977F3B00056DDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5936A79C20977F3B00056DDF /* Main.storyboard */; };
+		5936A7A020977F3C00056DDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5936A79F20977F3C00056DDF /* Assets.xcassets */; };
+		5936A7A320977F3C00056DDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5936A7A120977F3C00056DDF /* LaunchScreen.storyboard */; };
+		5936A7B020977FFB00056DDF /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5936A7AF20977FFB00056DDF /* Podfile */; };
+		C033C705B2A7AE5F4B34E1DA /* Pods_IOS_Remote_Downloader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B17383BC8A67D8FB62779D6 /* Pods_IOS_Remote_Downloader.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16670D33B6A6EE8F192AF0E9 /* Pods-IOS-Remote-Downloader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS-Remote-Downloader.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOS-Remote-Downloader/Pods-IOS-Remote-Downloader.release.xcconfig"; sourceTree = "<group>"; };
+		1ED036A2173723BF8E69E041 /* Pods-IOS-Remote-Downloader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS-Remote-Downloader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IOS-Remote-Downloader/Pods-IOS-Remote-Downloader.debug.xcconfig"; sourceTree = "<group>"; };
+		3B17383BC8A67D8FB62779D6 /* Pods_IOS_Remote_Downloader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOS_Remote_Downloader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5936A79520977F3B00056DDF /* IOS-Remote-Downloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS-Remote-Downloader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5936A79820977F3B00056DDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5936A79A20977F3B00056DDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5936A79D20977F3B00056DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5936A79F20977F3C00056DDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5936A7A220977F3C00056DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5936A7A420977F3C00056DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5936A7AF20977FFB00056DDF /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5936A79220977F3B00056DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C033C705B2A7AE5F4B34E1DA /* Pods_IOS_Remote_Downloader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00997F48022F9B948F49C14F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1ED036A2173723BF8E69E041 /* Pods-IOS-Remote-Downloader.debug.xcconfig */,
+				16670D33B6A6EE8F192AF0E9 /* Pods-IOS-Remote-Downloader.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5936A78C20977F3B00056DDF = {
+			isa = PBXGroup;
+			children = (
+				5936A79720977F3B00056DDF /* IOS-Remote-Downloader */,
+				5936A7AF20977FFB00056DDF /* Podfile */,
+				5936A79620977F3B00056DDF /* Products */,
+				00997F48022F9B948F49C14F /* Pods */,
+				E6A221A8921E30909523EC13 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5936A79620977F3B00056DDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5936A79520977F3B00056DDF /* IOS-Remote-Downloader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5936A79720977F3B00056DDF /* IOS-Remote-Downloader */ = {
+			isa = PBXGroup;
+			children = (
+				5936A7AC20977FB200056DDF /* Resources */,
+				5936A7AB20977FAE00056DDF /* Model */,
+				5936A7AA20977FA900056DDF /* Module */,
+				5936A79820977F3B00056DDF /* AppDelegate.swift */,
+				5936A79A20977F3B00056DDF /* ViewController.swift */,
+				5936A79C20977F3B00056DDF /* Main.storyboard */,
+				5936A79F20977F3C00056DDF /* Assets.xcassets */,
+				5936A7A120977F3C00056DDF /* LaunchScreen.storyboard */,
+				5936A7A420977F3C00056DDF /* Info.plist */,
+			);
+			path = "IOS-Remote-Downloader";
+			sourceTree = "<group>";
+		};
+		5936A7AA20977FA900056DDF /* Module */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		5936A7AB20977FAE00056DDF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5936A7AC20977FB200056DDF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E6A221A8921E30909523EC13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B17383BC8A67D8FB62779D6 /* Pods_IOS_Remote_Downloader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5936A79420977F3B00056DDF /* IOS-Remote-Downloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5936A7A720977F3C00056DDF /* Build configuration list for PBXNativeTarget "IOS-Remote-Downloader" */;
+			buildPhases = (
+				3E7F38BC9561C4965E0AAB45 /* [CP] Check Pods Manifest.lock */,
+				5936A79120977F3B00056DDF /* Sources */,
+				5936A79220977F3B00056DDF /* Frameworks */,
+				5936A79320977F3B00056DDF /* Resources */,
+				B64C85CAC1FAD60FD2747045 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IOS-Remote-Downloader";
+			productName = "IOS-Remote-Downloader";
+			productReference = 5936A79520977F3B00056DDF /* IOS-Remote-Downloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5936A78D20977F3B00056DDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = gokul;
+				TargetAttributes = {
+					5936A79420977F3B00056DDF = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 5936A79020977F3B00056DDF /* Build configuration list for PBXProject "IOS-Remote-Downloader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5936A78C20977F3B00056DDF;
+			productRefGroup = 5936A79620977F3B00056DDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5936A79420977F3B00056DDF /* IOS-Remote-Downloader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5936A79320977F3B00056DDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5936A7A320977F3C00056DDF /* LaunchScreen.storyboard in Resources */,
+				5936A7A020977F3C00056DDF /* Assets.xcassets in Resources */,
+				5936A7B020977FFB00056DDF /* Podfile in Resources */,
+				5936A79E20977F3B00056DDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E7F38BC9561C4965E0AAB45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IOS-Remote-Downloader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B64C85CAC1FAD60FD2747045 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IOS-Remote-Downloader/Pods-IOS-Remote-Downloader-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOS-Remote-Downloader/Pods-IOS-Remote-Downloader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5936A79120977F3B00056DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5936A79B20977F3B00056DDF /* ViewController.swift in Sources */,
+				5936A79920977F3B00056DDF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5936A79C20977F3B00056DDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5936A79D20977F3B00056DDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5936A7A120977F3C00056DDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5936A7A220977F3C00056DDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5936A7A520977F3C00056DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5936A7A620977F3C00056DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5936A7A820977F3C00056DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ED036A2173723BF8E69E041 /* Pods-IOS-Remote-Downloader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "IOS-Remote-Downloader/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = c;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gokul.IOS-Remote-Downloader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5936A7A920977F3C00056DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16670D33B6A6EE8F192AF0E9 /* Pods-IOS-Remote-Downloader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "IOS-Remote-Downloader/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = c;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gokul.IOS-Remote-Downloader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5936A79020977F3B00056DDF /* Build configuration list for PBXProject "IOS-Remote-Downloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5936A7A520977F3C00056DDF /* Debug */,
+				5936A7A620977F3C00056DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5936A7A720977F3C00056DDF /* Build configuration list for PBXNativeTarget "IOS-Remote-Downloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5936A7A820977F3C00056DDF /* Debug */,
+				5936A7A920977F3C00056DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5936A78D20977F3B00056DDF /* Project object */;
+}
