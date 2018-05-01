@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59205E5C2098964F00AF10BA /* DownloadItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59205E5B2098964F00AF10BA /* DownloadItem.swift */; };
+		59205E5E2098985900AF10BA /* DownloadListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59205E5D2098985900AF10BA /* DownloadListViewController.swift */; };
+		59205E61209898AC00AF10BA /* DownloadListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59205E60209898AC00AF10BA /* DownloadListViewModel.swift */; };
+		59205E642098B18F00AF10BA /* DownloadAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59205E632098B18F00AF10BA /* DownloadAPI.swift */; };
 		5936A79920977F3B00056DDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5936A79820977F3B00056DDF /* AppDelegate.swift */; };
 		5936A79B20977F3B00056DDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5936A79A20977F3B00056DDF /* ViewController.swift */; };
 		5936A79E20977F3B00056DDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5936A79C20977F3B00056DDF /* Main.storyboard */; };
@@ -20,6 +24,10 @@
 		16670D33B6A6EE8F192AF0E9 /* Pods-IOS-Remote-Downloader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS-Remote-Downloader.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOS-Remote-Downloader/Pods-IOS-Remote-Downloader.release.xcconfig"; sourceTree = "<group>"; };
 		1ED036A2173723BF8E69E041 /* Pods-IOS-Remote-Downloader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS-Remote-Downloader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IOS-Remote-Downloader/Pods-IOS-Remote-Downloader.debug.xcconfig"; sourceTree = "<group>"; };
 		3B17383BC8A67D8FB62779D6 /* Pods_IOS_Remote_Downloader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOS_Remote_Downloader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59205E5B2098964F00AF10BA /* DownloadItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadItem.swift; sourceTree = "<group>"; };
+		59205E5D2098985900AF10BA /* DownloadListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadListViewController.swift; sourceTree = "<group>"; };
+		59205E60209898AC00AF10BA /* DownloadListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadListViewModel.swift; sourceTree = "<group>"; };
+		59205E632098B18F00AF10BA /* DownloadAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadAPI.swift; sourceTree = "<group>"; };
 		5936A79520977F3B00056DDF /* IOS-Remote-Downloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS-Remote-Downloader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5936A79820977F3B00056DDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5936A79A20977F3B00056DDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +59,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		59205E622098B18100AF10BA /* API */ = {
+			isa = PBXGroup;
+			children = (
+				59205E632098B18F00AF10BA /* DownloadAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		5936A78C20977F3B00056DDF = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +92,7 @@
 				5936A7AC20977FB200056DDF /* Resources */,
 				5936A7AB20977FAE00056DDF /* Model */,
 				5936A7AA20977FA900056DDF /* Module */,
+				59205E622098B18100AF10BA /* API */,
 				5936A79820977F3B00056DDF /* AppDelegate.swift */,
 				5936A79A20977F3B00056DDF /* ViewController.swift */,
 				5936A79C20977F3B00056DDF /* Main.storyboard */,
@@ -89,6 +106,8 @@
 		5936A7AA20977FA900056DDF /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				59205E5D2098985900AF10BA /* DownloadListViewController.swift */,
+				59205E60209898AC00AF10BA /* DownloadListViewModel.swift */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -96,6 +115,7 @@
 		5936A7AB20977FAE00056DDF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				59205E5B2098964F00AF10BA /* DownloadItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -210,10 +230,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-IOS-Remote-Downloader/Pods-IOS-Remote-Downloader-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,8 +250,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59205E61209898AC00AF10BA /* DownloadListViewModel.swift in Sources */,
+				59205E5E2098985900AF10BA /* DownloadListViewController.swift in Sources */,
+				59205E642098B18F00AF10BA /* DownloadAPI.swift in Sources */,
 				5936A79B20977F3B00056DDF /* ViewController.swift in Sources */,
 				5936A79920977F3B00056DDF /* AppDelegate.swift in Sources */,
+				59205E5C2098964F00AF10BA /* DownloadItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,7 +403,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "IOS-Remote-Downloader/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = c;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -398,7 +424,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "IOS-Remote-Downloader/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = c;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -6,5 +6,6 @@ target 'IOS-Remote-Downloader' do
 
   # Pods for IOS-Remote-Downloader
   pod 'RxSwift'
+  pod 'Alamofire', '~> 4.7'
 
 end

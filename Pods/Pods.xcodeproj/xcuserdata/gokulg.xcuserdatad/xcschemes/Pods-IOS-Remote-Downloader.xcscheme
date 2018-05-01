@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D62107244FFF1741418E1304E340E38F"
+               BlueprintIdentifier = "DB563521C5EE01E6B1A4659012693651"
                BuildableName = "Pods_IOS_Remote_Downloader.framework"
                BlueprintName = "Pods-IOS-Remote-Downloader"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D62107244FFF1741418E1304E340E38F"
+            BlueprintIdentifier = "DB563521C5EE01E6B1A4659012693651"
             BuildableName = "Pods_IOS_Remote_Downloader.framework"
             BlueprintName = "Pods-IOS-Remote-Downloader"
             ReferencedContainer = "container:Pods.xcodeproj">
