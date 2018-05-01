@@ -13,13 +13,13 @@ class DownloadListViewController: UIViewController {
     var viewModel : DownloadListViewModel?
     
     //MARK:-  Initializers
-    public init(withViewModel dlViewModel : DownloadListViewModel) {
-        viewModel = dlViewModel
-        super.init(nibName: nil, bundle: nil)
-    }
-    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        viewModel = DownloadListViewModel()
+    }
+    
+    override func viewDidLoad() {
+        
     }
     
     

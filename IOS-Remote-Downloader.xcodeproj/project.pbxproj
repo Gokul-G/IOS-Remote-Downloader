@@ -11,6 +11,8 @@
 		59205E5E2098985900AF10BA /* DownloadListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59205E5D2098985900AF10BA /* DownloadListViewController.swift */; };
 		59205E61209898AC00AF10BA /* DownloadListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59205E60209898AC00AF10BA /* DownloadListViewModel.swift */; };
 		59205E642098B18F00AF10BA /* DownloadAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59205E632098B18F00AF10BA /* DownloadAPI.swift */; };
+		59205E662098D49000AF10BA /* DownloadListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59205E652098D49000AF10BA /* DownloadListCell.swift */; };
+		59205E682098D49800AF10BA /* DownloadListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59205E672098D49800AF10BA /* DownloadListCell.xib */; };
 		5936A79920977F3B00056DDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5936A79820977F3B00056DDF /* AppDelegate.swift */; };
 		5936A79B20977F3B00056DDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5936A79A20977F3B00056DDF /* ViewController.swift */; };
 		5936A79E20977F3B00056DDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5936A79C20977F3B00056DDF /* Main.storyboard */; };
@@ -28,6 +30,8 @@
 		59205E5D2098985900AF10BA /* DownloadListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadListViewController.swift; sourceTree = "<group>"; };
 		59205E60209898AC00AF10BA /* DownloadListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadListViewModel.swift; sourceTree = "<group>"; };
 		59205E632098B18F00AF10BA /* DownloadAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadAPI.swift; sourceTree = "<group>"; };
+		59205E652098D49000AF10BA /* DownloadListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadListCell.swift; sourceTree = "<group>"; };
+		59205E672098D49800AF10BA /* DownloadListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DownloadListCell.xib; sourceTree = "<group>"; };
 		5936A79520977F3B00056DDF /* IOS-Remote-Downloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS-Remote-Downloader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5936A79820977F3B00056DDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5936A79A20977F3B00056DDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +112,8 @@
 			children = (
 				59205E5D2098985900AF10BA /* DownloadListViewController.swift */,
 				59205E60209898AC00AF10BA /* DownloadListViewModel.swift */,
+				59205E652098D49000AF10BA /* DownloadListCell.swift */,
+				59205E672098D49800AF10BA /* DownloadListCell.xib */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -195,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59205E682098D49800AF10BA /* DownloadListCell.xib in Resources */,
 				5936A7A320977F3C00056DDF /* LaunchScreen.storyboard in Resources */,
 				5936A7A020977F3C00056DDF /* Assets.xcassets in Resources */,
 				5936A7B020977FFB00056DDF /* Podfile in Resources */,
@@ -254,6 +261,7 @@
 				59205E5E2098985900AF10BA /* DownloadListViewController.swift in Sources */,
 				59205E642098B18F00AF10BA /* DownloadAPI.swift in Sources */,
 				5936A79B20977F3B00056DDF /* ViewController.swift in Sources */,
+				59205E662098D49000AF10BA /* DownloadListCell.swift in Sources */,
 				5936A79920977F3B00056DDF /* AppDelegate.swift in Sources */,
 				59205E5C2098964F00AF10BA /* DownloadItem.swift in Sources */,
 			);

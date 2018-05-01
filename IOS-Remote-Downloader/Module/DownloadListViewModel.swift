@@ -11,5 +11,13 @@ import Foundation
 class DownloadListViewModel {
     
     var downloadItems : [DownloadItem] = []
+    
+    func fetchDownloadList() {
+        DownloadAPI.getDownloadList(withSuccessHandler: {
+            
+        }) { (error) in
+            
+        }
+    }
             
 }

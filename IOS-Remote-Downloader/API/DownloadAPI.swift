@@ -8,14 +8,18 @@
 
 import Alamofire
 
-func getDownloadList(withSuccessHandler successHandler: @escaping () -> (), failureHandler :@escaping (Error)-> ()) {
+
+class DownloadAPI  {
     
-    Alamofire.request("http:localhost:8080/downloads").responseJSON { (response) in
-        switch response.result {
-        case .success:
-            successHandler()
-        case .failure(let error):
-            failureHandler(error)
+
+static func getDownloadList(withSuccessHandler successHandler: @escaping () -> (), failureHandler :@escaping (Error)-> ()) {
+        Alamofire.request("http:localhost:8080/downloads").responseJSON { (response) in
+            switch response.result {
+            case .success:
+                successHandler()
+            case .failure(let error):
+                failureHandler(error)
+            }
         }
     }
 }
