@@ -11,12 +11,11 @@ import Alamofire
 
 class DownloadAPI  {
     
-
-static func getDownloadList(withSuccessHandler successHandler: @escaping () -> (), failureHandler :@escaping (Error)-> ()) {
-        Alamofire.request("http:localhost:8080/downloads").responseJSON { (response) in
+static func getDownloadList(withSuccessHandler successHandler: @escaping (DataResponse<Data>) -> (), failureHandler :@escaping (Error)-> ()) {
+        Alamofire.request("http:localhost:8080/downloads").responseData { (response) in
             switch response.result {
             case .success:
-                successHandler()
+                successHandler(response)
             case .failure(let error):
                 failureHandler(error)
             }

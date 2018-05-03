@@ -19,7 +19,9 @@ class DownloadListViewController: UIViewController {
     }
     
     override func viewDidLoad() {
-        
+        viewModel?.fetchDownloadList(completion: { (downloadList) in
+            
+        })
     }
     
     

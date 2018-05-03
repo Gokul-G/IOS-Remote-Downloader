@@ -12,9 +12,10 @@ class DownloadListViewModel {
     
     var downloadItems : [DownloadItem] = []
     
-    func fetchDownloadList() {
-        DownloadAPI.getDownloadList(withSuccessHandler: {
-            
+    func fetchDownloadList(completion : @escaping ([DownloadItem]) -> ()) {
+        DownloadAPI.getDownloadList(withSuccessHandler: { response in
+            let downloadList = try! JSONDecoder().decode([DownloadItem].self, from: response.data!)
+            completion(downloadList)
         }) { (error) in
             
         }

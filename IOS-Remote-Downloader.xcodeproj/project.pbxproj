@@ -19,6 +19,7 @@
 		5936A7A020977F3C00056DDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5936A79F20977F3C00056DDF /* Assets.xcassets */; };
 		5936A7A320977F3C00056DDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5936A7A120977F3C00056DDF /* LaunchScreen.storyboard */; };
 		5936A7B020977FFB00056DDF /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5936A7AF20977FFB00056DDF /* Podfile */; };
+		59805472209B7B9100BF383C /* DateFormatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59805471209B7B9100BF383C /* DateFormatter+Extension.swift */; };
 		C033C705B2A7AE5F4B34E1DA /* Pods_IOS_Remote_Downloader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B17383BC8A67D8FB62779D6 /* Pods_IOS_Remote_Downloader.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		5936A7A220977F3C00056DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5936A7A420977F3C00056DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5936A7AF20977FFB00056DDF /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		59805471209B7B9100BF383C /* DateFormatter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		5936A79720977F3B00056DDF /* IOS-Remote-Downloader */ = {
 			isa = PBXGroup;
 			children = (
+				59805470209B7B7700BF383C /* Extensions */,
 				5936A7AC20977FB200056DDF /* Resources */,
 				5936A7AB20977FAE00056DDF /* Model */,
 				5936A7AA20977FA900056DDF /* Module */,
@@ -131,6 +134,14 @@
 			children = (
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		59805470209B7B7700BF383C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				59805471209B7B9100BF383C /* DateFormatter+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		E6A221A8921E30909523EC13 /* Frameworks */ = {
@@ -259,6 +270,7 @@
 			files = (
 				59205E61209898AC00AF10BA /* DownloadListViewModel.swift in Sources */,
 				59205E5E2098985900AF10BA /* DownloadListViewController.swift in Sources */,
+				59805472209B7B9100BF383C /* DateFormatter+Extension.swift in Sources */,
 				59205E642098B18F00AF10BA /* DownloadAPI.swift in Sources */,
 				5936A79B20977F3B00056DDF /* ViewController.swift in Sources */,
 				59205E662098D49000AF10BA /* DownloadListCell.swift in Sources */,
